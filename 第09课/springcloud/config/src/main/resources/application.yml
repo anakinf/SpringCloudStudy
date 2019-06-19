@@ -9,9 +9,9 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/anakinf_admin/SpringCloudStudy.git #配置git仓库地址
+          uri: https://github.com/anakinf/SpringCloudStudy.git #配置git仓库地址
           searchPaths: 第09课/config #配置仓库路径
-          username: anakin.s@163.com #访问git仓库的用户名
+          username: anakinf #访问git仓库的用户名
           password: Anakin!123 #访问git仓库的用户密码
       label: master #配置仓库的分支
   rabbitmq:
