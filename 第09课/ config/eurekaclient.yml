@@ -2,9 +2,7 @@ server:
   port: 8764
 spring:
   application:
-    name: eurekaclient
-  profiles:
-    active: dev
+    name: eurekaclient 
   rabbitmq:
     host: 127.0.0.1
     port: 5672
