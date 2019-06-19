@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class HelloController {
 
-    @Value("${server.port}")
-    private int port;
+//    @Value("${server.port}")
+//    private int port;
 
     @RequestMapping("index")
     public String index(){
-        return "Hello World!,端口："+port;
+        return "Hello World!,端口：";
     }
 }
